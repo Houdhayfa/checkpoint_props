@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
- const Profile=(props) => {
-     const handelName=()=>{alert(`${props.name}`)}
+const Profile=(props) => {
+     const handelName=()=>{alert(`Profile name is: ${props.name}`)}
      const profileStyle={display:"flex",
                          flexDirection:"column",
                          justifyContent:"center",
@@ -13,8 +13,8 @@ import React, { Component } from 'react'
                          borderRadius:10
                         }
     const buttonStyle={display:"block",
-                      borderRadius:5,
-                     backgroundColor:"#FFDF00"
+                       borderRadius:5,
+                       backgroundColor:"#FFDF00"
                       }
     const infoStyle={width:300,
                      height:400,
